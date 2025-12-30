@@ -1,4 +1,4 @@
-const API_KEY = "cbbf845e87d94bfa99f0f1419fbe6b00";
+const API_KEY = env.API_KEY;
 const container = document.getElementById("headlines");
 
 async function loadHeadlines() {
